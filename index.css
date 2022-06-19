@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+header,
+article,
+aside,
+footer {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+@media (min-width: 700px) {
+    body {
+        background-color: white;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+}
